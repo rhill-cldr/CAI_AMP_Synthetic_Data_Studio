@@ -236,7 +236,17 @@ print(response.json())
 
  
 
-## [Technical Overview](docs/technical_overview.md):  
+## Developer's Guide
+
+The full developer documentation is published as an mdbook at `docs/current/`. To build locally:
+
+```bash
+cd docs/current && mdbook build
+```
+
+The guide covers architecture, API specification, data models, pipeline internals, export destinations, and integration patterns. See [docs/current/src/SUMMARY.md](docs/current/src/SUMMARY.md) for the table of contents.
+
+## [Technical Overview](docs/technical_overview.md):
 
 The given document gives overall capabilities, tech stack, and general idea to get started on this application.
 

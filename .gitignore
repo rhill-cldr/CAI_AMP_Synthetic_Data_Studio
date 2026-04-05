@@ -96,3 +96,18 @@ Raw_Web_Visit_Sample.csv
 Raw_Web_Visit_Sample.csv
 app/test_models.py
 credit_card_example.json
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# MDBook
+docs/current/book/
+docs/current/src/d2/

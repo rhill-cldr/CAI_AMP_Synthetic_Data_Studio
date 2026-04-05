@@ -215,3 +215,9 @@ df = pd.read_sql_query(query, conn)
 conn.close()
 df.head()
 ```
+
+---
+
+## Full Developer's Guide
+
+For comprehensive documentation covering API specification, pipeline internals, data models, and integration patterns, see the [Developer's Guide](current/src/SUMMARY.md) in `docs/current/`.
